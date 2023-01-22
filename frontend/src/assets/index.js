@@ -12,7 +12,7 @@ import menu from './menu.svg';
 import money from './money.svg';
 import loader from './loader.svg';
 import thirdweb from './thirdweb.png';
-
+import icon from './iconwhite.png';
 export {
   tagType,
   createCampaign,
@@ -28,4 +28,5 @@ export {
   money,
   loader,
   thirdweb,
+  icon,
 };
