@@ -30,7 +30,7 @@ contract CrowdFunding {
 
         require(
             campaign.deadline < block.timestamp,
-            "The deadline should be a date in the future."
+            "The Deadline Should Be A Date In The Future."
         );
 
         campaign.owner = _owner;

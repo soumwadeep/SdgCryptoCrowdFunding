@@ -2,6 +2,10 @@
 
 Create a project using this example:
 
+To Request Eth Use This Link:
+https://goerlifaucet.com/
+Enter Your metamask wallet address and click send me eth
+
 ```bash
 npx thirdweb create --contract --template hardhat-javascript-starter
 ```

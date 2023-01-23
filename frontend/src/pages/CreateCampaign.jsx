@@ -37,7 +37,7 @@ const CreateCampaign = () => {
         setIsLoading(false);
         navigate("/");
       } else {
-        alert("Provide valid image URL");
+        alert("Provide A Valid Image URL");
         setForm({ ...form, image: "" });
       }
     });
@@ -110,8 +110,8 @@ const CreateCampaign = () => {
         </div>
 
         <FormField
-          labelName="Campaign image *"
-          placeholder="Place image URL of your campaign"
+          labelName="Campaign Image *"
+          placeholder="Place Image URL Of Your Campaign"
           inputType="url"
           value={form.image}
           handleChange={(e) => handleFormFieldChange("image", e)}
